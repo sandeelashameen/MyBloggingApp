@@ -12,7 +12,7 @@ import {
     deleteDoc,
     signOut,
     updateDoc,
-} from "./firebaseConfig.js";
+} from "./firebaseconfig.js";
 
 const profileUserFullname = document.querySelector("#profileUserFullname");
 const profileUserName = document.querySelector("#profileUserName");
