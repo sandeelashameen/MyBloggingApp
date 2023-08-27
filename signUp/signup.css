@@ -15,7 +15,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 15px 100px;
-    background-color: #7749f8;
+    background-color:#9747FF;
     color: #fff;
 }
 
@@ -64,9 +64,9 @@ main {
 }
 
 .login-form-container button {
-    background-color: #7749f8;
+    background-color: #9747FF;
     color: #fff;
-    border: 1px solid #7749f8;
+    border: 1px solid #9747FF;
     border-radius: 5px;
     font-size: 15px;
     border-radius: 5px;
@@ -94,6 +94,6 @@ main {
 }
 
 .login-form-container button:hover {
-    background-color: #6e4ad1;
+    background-color:#9747FF;
     border-color: #6e4ad1;
 }

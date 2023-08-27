@@ -9,8 +9,9 @@ async function login(e) {
     const password = document.querySelector("#password")
     const data = await signInWithEmailAndPassword(auth, email.value,
         password.value);
+        console.log(data);
     if (data) {
-        window.location.href = "../../index.html"
+        window.location.href = "../UserDashboard/dashboard.html"
     } else {
         console.log(data);
     }

@@ -72,7 +72,7 @@ onAuthStateChanged(auth, (user) => {
         //   showAllUsers(user.email);
         // console.log(currentLoginUserId);
     } else {
-        window.location.href = `../signIn/signin.html`;
+        window.location.href = `../login/login.html`;
     }
 });
 
@@ -85,12 +85,12 @@ async function getUserData(userUid) {
         if (docSnap.exists()) {
             // console.log("Document data:", docSnap.data());
             const {
-                userFirstName,
-                userSurName,
+                first_name,
+                last_name,
             } = docSnap.data();
             // console.log(userEmail);
 
-            userFullName.textContent = `${userFirstName} ${userSurName}`;
+            userFullName.textContent = `${first_name} ${lastame}`;
 
             // console.log(currentLoginUser);
         } else {
